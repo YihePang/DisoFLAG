@@ -1,0 +1,10 @@
+Explanation of dataset
+Line 1: >protein ID
+Line 2: protein sequence (1-letter amino acid encoding)
+Line 3: annotations of intrinsic disorder regions (IDR), where '1' denotes a IDR, '0' denotes a non-IDR
+Line 4: annotations of disordered Protein-binding regions (PB), where '1' denotes a PB, '0' denotes a non-PB
+Line 5: annotations of disordered DNA-binding regions (DB), where '1' denotes a DB, '0' denotes a non-DB
+Line 6: annotations of disordered RNA-binding regions (RB), where '1' denotes a RB, '0' denotes a non-RB
+Line 7: annotations of disordered Ion-binding regions (IB), where '1' denotes a IB, '0' denotes a non-IB
+Line 8: annotations of disordered Lipid-binding regions (LB), where '1' denotes a LB, '0' denotes a non-LB
+Line 9: annotations of disordered flexible linkers (DFL), where '1' denotes a DFL, '0' denotes a non-DFL
