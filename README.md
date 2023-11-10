@@ -22,18 +22,16 @@ DisoFLAG, a computational method that leverages a graph-based interaction protei
 * Download python3.5 version and install.<br>
 * Download Anaconda and intall.<br>
 * Using the following command to check the environment:<br>
-```Bash
+```Bash 
 python -V
 conda --version
 ```
 
-Then, follow these steps to use the source code:<br> 
+**Step2:** Download the model source file.
+* Download the model “pytorch_model.bin” file [here](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/pytorch_model.bin) and copy it to "/DisoFLAG/protTrans/prot_t5_xl_uniref50/".<br>
 
 
 
-
-* Download model file [here](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/pytorch_model.bin) and copy it to "/protTrans/prot_t5_xl_uniref50/".<br>
-* Download model file [here](https://huggingface.co/Rostlab/prot_bert/resolve/main/pytorch_model.bin) and copy it to "/protTrans/prot_bert/".<br>
 * Create and activate the required environment of IDP-LM using the following commands:<br>
 ```Bash
 conda env create -f IDP_LM/torch.yml 
