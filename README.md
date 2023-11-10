@@ -26,12 +26,43 @@ DisoFLAG, a computational method that leverages a graph-based interaction protei
 python -V
 conda --version
 ```
+<br>
 
 **Step2:** Download the model source file.
 * Download the model “pytorch_model.bin” file [here](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/pytorch_model.bin) and copy it to "/DisoFLAG/protTrans/prot_t5_xl_uniref50/".<br>
 
+**Step3:** Create and activate the required environments using the following commands:<br>
+```Bash
+cd DisoFLAG
+conda env create -f torch.yml
+conda activate torch
+```
+<br>
 
+**Step4:** Put the sequence file to be predicted in FASTA format into the "DisoFLAG/temp/" folder.<br>
+<br>
 
+**Step5:** Run the predictor using the following command :<br>
+```Bash
+sh run.sh -i [./temp/seqfile] -o [output_type]
+```
+positional arguments:<br>
+[./temp/seqfile]: seqfile is the input FASTA formatted sequence filename<br>
+[output_type]: select the type of result file('p' or 'b'), p represents "propensity score" and b represents "binary result"<br>
+<br>
+
+**Step6:** After the prediction is completed, find the result file in the "DisoFLAG/temp/result/" folder.<br>
+Explanation of result file:<br>
+		Line 1: >sequence ID<br>
+		Line 2: protein sequence (1-letter amino acid encoding)<br>
+		Line 3: Predicted results of intrinsic disorder regions (IDR)<br>
+		Line 4: Predicted results of disordered Protein-binding regions (PB)<br>
+		Line 5: Predicted results of disordered DNA-binding regions (DB)<br>
+		Line 6: Predicted results of disordered RNA-binding regions (RB)<br>
+		Line 7: Predicted results of disordered Ion-binding regions (IB)<br>
+		Line 8: Predicted results of disordered Lipid-binding regions (LB)<br>
+		Line 9: Predicted results of disordered flexible linkers (DFL)<br>
+  
 * Create and activate the required environment of IDP-LM using the following commands:<br>
 ```Bash
 conda env create -f IDP_LM/torch.yml 
