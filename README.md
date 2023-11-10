@@ -60,15 +60,15 @@ positional arguments:<br>
 **Step6:** After the prediction is completed, find the result file in the "DisoFLAG/temp/result/" folder.<br>
 Explanation of result file:<br>
 ```Bash
-		Line 1: >sequence ID<br>
-		Line 2: protein sequence (1-letter amino acid encoding)<br>
-		Line 3: Predicted results of intrinsic disorder regions (IDR)<br>
-		Line 4: Predicted results of disordered Protein-binding regions (PB)<br>
-		Line 5: Predicted results of disordered DNA-binding regions (DB)<br>
-		Line 6: Predicted results of disordered RNA-binding regions (RB)<br>
-		Line 7: Predicted results of disordered Ion-binding regions (IB)<br>
-		Line 8: Predicted results of disordered Lipid-binding regions (LB)<br>
-		Line 9: Predicted results of disordered flexible linkers (DFL)<br>
+Line 1: >sequence ID<br>
+Line 2: protein sequence (1-letter amino acid encoding)<br>
+Line 3: Predicted results of intrinsic disorder regions (IDR)<br>
+Line 4: Predicted results of disordered Protein-binding regions (PB)<br>
+Line 5: Predicted results of disordered DNA-binding regions (DB)<br>
+Line 6: Predicted results of disordered RNA-binding regions (RB)<br>
+Line 7: Predicted results of disordered Ion-binding regions (IB)<br>
+Line 8: Predicted results of disordered Lipid-binding regions (LB)<br>
+Line 9: Predicted results of disordered flexible linkers (DFL)<br>
 ```
 <br>
 
