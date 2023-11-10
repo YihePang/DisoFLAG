@@ -2,15 +2,16 @@
 
 This repository contains the source code used in our paper titled _Yihe Pang, Bin Liu_. DisoFLAG: Accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language. The code is implemented to realize the predictors proposed in the paper and includes datasets and tutorials to assist users in utilizing the code. <br>
 
-More materials and dataset used in this study can be obtained from (http://bliulab.net/IDP_LM/download/).
+A convenient web server for DisoFLAG were provided, which can be accessed from (http://bliulab.net/DisoFLAG/).
 
 
 ## Citation
 Upon the usage the users are requested to use the following citation:<br>
-_Yihe Pang, Bin Liu_. IDP-LM: prediction of protein intrinsic disorder and disorder functions based on language models. (Submitted)
+_Yihe Pang, Bin Liu_. DisoFLAG: Accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language. (BMC biology Submitted)
 
 ## Introduction
-We proposed a disorder specific protein language model, IDP-BERT. The IDP-BERT was trained as a Restrictive Masked Language Model (ReMLM) to focus on the disordered regions mainly located in the N’ and C’ terminals of sequences. Furthermore, we proposed a computational predictor called IDP-LM for predicting intrinsic disorder and disorder functions by leveraging the pre-trained protein language models. IDP-LM takes the embeddings extracted from three pre-trained protein language models as the exclusive inputs, including ProtBERT, ProtT5, and IDP-BERT. The evaluation results on independent test datasets demonstrated that the IDP-LM provided high-quality prediction results for intrinsic disorder and four common disordered functions including disorder protein binding, DNA binding, RNA binding, and disorder flexible linkers.
+DisoFLAG, a computational method that leverages a graph-based interaction protein language model (GiPLM) for jointly predicting disorder and its multiple potential functions. GiPLM integrates protein semantic information based on pre-trained protein language models into graph-based interaction units to enhance the correlation of the semantic representation of multiple disordered functions. The DisoFLAG predictor takes amino acid sequences as the only inputs and provides predictions of intrinsic disorder and six disordered functions for proteins, including protein-binding, DNA-binding, RNA-binding, ion-binding, lipid-binding, and flexible linker.
+
 
 ![image](https://github.com/YihePang/IDP-LM/assets/38775429/c90910d8-4b5a-4bf4-860a-73b830cac49a)
 
