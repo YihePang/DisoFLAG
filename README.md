@@ -29,7 +29,7 @@ conda --version
 <br>
 
 **Step2:** Download the model source file.
-* Download the model “pytorch_model.bin” file [here](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/pytorch_model.bin) and copy it to "/DisoFLAG/protTrans/prot_t5_xl_uniref50/".<br>
+* Download the model “pytorch_model.bin” file [here](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/pytorch_model.bin) and copy it to the folder "/DisoFLAG/protTrans/prot_t5_xl_uniref50/".<br>
 <br>
 
 **Step3:** Create and activate the required environments using the following commands:<br>
@@ -50,11 +50,11 @@ MTEETITIDSISNGILNNLLTTLIQDIVARETTQQQLLKTRYPDLRSYYFDPNGSLDINGLQKQQESSQYIHCENCGRDV
 
 **Step5:** Run the predictor using the following command :<br>
 ```Bash
-sh run.sh -i [./temp/seqfile] -o [output_type]
+sh run.sh -i ./temp/seqfile.fasta -o output_type
 ```
 positional arguments:<br>
-[./temp/seqfile]: seqfile is the input FASTA formatted sequence filename<br>
-[output_type]: select the type of result file('p' or 'b'), p represents "propensity score" and b represents "binary result"<br>
+./temp/seqfile: the file path of the input FASTA formatted sequences<br>
+output_type: the type of the result file (p or b), p represents "propensity score" and b represents "binary result"<br>
 <br>
 
 **Step6:** After the prediction is completed, find the result file in the "DisoFLAG/temp/result/" folder.<br>
