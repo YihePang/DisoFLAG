@@ -19,8 +19,8 @@ DisoFLAG, a computational method that leverages a graph-based interaction protei
 
 ## Usage Guide
 **Step1:** Ensure that your environment meets the necessary requirements (Linux, Python 3.5+). <br>
-* Download and install python3.5.<br>
-* Download and intall Anaconda.<br>
+* Download and install python3.5+ package.<br>
+* Download and intall Anaconda package.<br>
 * Using the following command to check the environment:<br>
 ```Bash 
 python -V
