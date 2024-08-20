@@ -7,7 +7,7 @@ A convenient web server for DisoFLAG were provided, which can be accessed from (
 
 ## Citation
 Upon the usage the users are requested to use the following citation:<br>
-_Yihe Pang, Bin Liu_. DisoFLAG: Accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language. (BMC biology Submitted)
+_Yihe Pang, Bin Liu_. DisoFLAG: Accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language[J]. BMC biology, 2024, 22(1): 3.
 
 ## Introduction
 DisoFLAG, a computational method that leverages a graph-based interaction protein language model (GiPLM) for jointly predicting disorder and its multiple potential functions. GiPLM integrates protein semantic information based on pre-trained protein language models into graph-based interaction units to enhance the correlation of the semantic representation of multiple disordered functions. The DisoFLAG predictor takes amino acid sequences as the only inputs and provides predictions of intrinsic disorder and six disordered functions for proteins, including protein-binding, DNA-binding, RNA-binding, ion-binding, lipid-binding, and flexible linker.
@@ -80,4 +80,4 @@ Line 9: Predicted results of disordered flexible linkers (DFL)
     		[ProtTrans](https://github.com/agemagician/ProtTrans): Protein pre-trained language models.<br> 
 <br>
 
-If you have any questions or concerns, please contact us at yhpang@bliulab.net (optimal) or bliu@bliulab.net.
+If you have any questions or concerns, please contact us at pangyh@ihep.ac.cn (optimal) or bliu@bliulab.net.
