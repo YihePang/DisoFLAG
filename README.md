@@ -82,5 +82,5 @@ Line 9: Predicted results of disordered flexible linkers (DFL)
 
 If you have any questions or concerns, please contact us at pangyh@ihep.ac.cn (optimal) or bliu@bliulab.net.
 
-![](https://https://komarev.com/ghpvc/?username=18811020896@163.com)
+![](https://komarev.com/ghpvc/?username=YihePang&abbreviated=true)
 
